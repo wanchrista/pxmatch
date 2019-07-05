@@ -54,7 +54,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, '/public')));
 
 app.get('/', function(request, response) {
-  response.render('pages/index')
+  response.render('pages/login')
 });
 
 
