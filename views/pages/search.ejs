@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Px</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shirnk-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="stylesheets/index.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <img class="img-icon" src="./img/bike_icon.jpeg">;
+                    <a class="navbar-brand" href="/index">Px</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li id="user"><a><%= user %></a></li>
+                    <li class="active"><a href="/search">Search</a></li>
+		    
+	            <li><a href="/logout">Log Out</a></li>
+                </ul>
+            </div>
+        </nav>	
+
+        <div id="view-search">
+            <div class="container">
+                <div class="login flex-container">
+                <br> <br> <br> <br> <br> <br> <br>
+            <h4> Please select an option: </h4>
+                    <center>
+                    <br>
+                <br>    <form action="/physician" method="get"> 
+                            <p> Already know your physician? </p>
+                            <button href="/physician" type="submit" class="btn btn-default">Go!</button><br><br> 
+                        </form>
+                        <form action="/specialty" method="get"> 
+                        <p> Looking  for a specialized physician? </p>
+                        
+
+                        <button href="/db" type="submit" class="btn btn-default">Go!</button><br>
+                        <br> 
+                    </form> 
+
+                        </center>
+                    
+                </div>
+
+            </div>
+            <br><br>
+        </div>
+    </body>
+</html>

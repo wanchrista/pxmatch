@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Px</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shirnk-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="stylesheets/index.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="index.js"></script>
+
+        <script type="text/javascript">
+
+                            function sampleFunction() {
+                                 
+                                     alert("The specialist you have selected is not currently taking referrals.");
+                                     
+                                
+                            }
+                            </script> 
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <img class="img-icon" src="./img/bike_icon.jpeg">;
+                    <a class="navbar-brand">Px</a>
+                </div>
+                <ul class="nav navbar-nav">
+		        <li><a href="/search">Search</a></li> 
+	            <li><a href="/logout">Log Out</a></li>
+                </ul>
+            </div>
+        </nav>	
+
+        <div class="view" id="view-user">
+            <div class="container">
+		      <div class="graphics">
+                <br> <br>
+                    <h2> <font color="#6699ff"> Dr. Wey Leong </font> </h2>
+                <div class="div1">
+                    <br>
+                    <p> Distance from Clinic: 8 kilometers </p> 
+                    <p> Current Waitlist: 18 (2 months) </p> <br> 
+                    <form action="/weyleong" method="get"> 
+                            <p> Want more information about Dr. Wey Leong? </p>
+                            <button type="submit" class="btn btn-default">Go!</button><br><br> 
+                    </form>
+                    
+                        <br>
+                </div> 
+                    <h2> <font color="#6699ff"> Dr. Tony Xiao </font> </h2>
+                <div class="div1">
+                    <br>
+                    <p> Distance from Clinic: 10 kilometers </p> 
+                    <p> Current Waitlist: 40 (6 months) </p> <br> 
+                    <form onsubmit="return sampleFunction();"> 
+                            <p> Want more information about Dr. Tony Xiao? </p>
+                            <button type="submit" class="btn btn-default">Go!</button><br><br> 
+                    </form>
+                </div>
+                <h2> <font color="#6699ff"> Dr. Julia Zhao </font> </h2>
+                <div class="div1">
+                    <br>
+                    <p> Distance from Clinic: 40 kilometers </p> 
+                    <p> Current Waitlist: 2 (2 weeks) </p> <br> 
+                    <form onsubmit="return sampleFunction();"> 
+                            <p> Want more information about Dr. Julia Zhao? </p>
+                            <button type="submit" class="btn btn-default">Go!</button><br><br> 
+                    </form>
+                </div>
+                <h2> <font color="#6699ff"> Dr. Karen Smith </font> </h2>
+                <div class="div1">
+                    <br>
+                    <p> Distance from Clinic: 50 kilometers </p> 
+                    <p> Current Waitlist: 20 (4 months) </p> <br> 
+                    <form onsubmit="return sampleFunction();"> 
+                            <p> Want more information about Dr. Julia Zhao? </p>
+                            <button type="submit" class="btn btn-default">Go!</button><br><br> 
+                    </form>
+                </div>                <br>
+                
+            </div> 
+            </div>
+        </div>
+        
+    </body>
+</html>

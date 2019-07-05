@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Px</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shirnk-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="stylesheets/index.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <img class="img-icon" src="./img/bike_icon.jpeg">;
+                    <a class="navbar-brand" href="/index">Px</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="/index">Home</a></li>
+		    <li><a href="/login">Log In</a></li>
+                    <li class="active"><a href="/signup">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>	
+
+
+        <div class="view" id="view-signup">
+            <div class="container">
+                <div class="login flex-container">
+	            <br> <br> <br> <br> <br> <br> <br>
+			<form action="/signup" method="post">
+			<h4> Tired of faxing referrals? </h4>
+                        <p> Become a member of <strong><font color="#6699ff">Px</font></strong> 
+                        to easily send and recieve referral information.</p>
+	                <center>
+                            <h1 align="center"> Sign Up </h1>
+		            <br>
+                        <p align="left"> Account Preferences (for personal use)</p> 
+                        <input class="form-control" type="text" name="username" placeholder="Username">
+                        <input class="form-control" type="password" name="password" placeholder="Password"> <br> 
+                        <p align="left"> Personal Information (for verification purposes)</p>  
+                        <input class="form-control" type="text" name="fmame" placeholder="First Name">
+                        <input class="form-control" type="text" name="lname" placeholder="Last Name">
+                        <input class="form-control" type="text" name="CSBO" placeholder="CSBO Number">
+                        <input class="form-control" type="text" name="phone" placeholder="Phone Number">
+                        <input class="form-control" type="email" name="email" placeholder="Email" >
+                        <br> 
+                        <p align="left"> Disclaimer: All of the above information is stored in a secure database. </p> 
+				<br> 
+            			<input class="form-control" id = "submit" type="submit" name="submit"><br>
+  
+            			
+          		</form>
+                        </center>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
