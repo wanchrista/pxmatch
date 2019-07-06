@@ -1,8 +1,13 @@
 ## Features of Web Application
-While on vacation, tourists may find it difficult and expensive to rent cars and purchase insurance if they lack an international driving license. Public transit can also be difficult to navigate in foreign languages. Public bike sharing systems breaches the barrier of other expensive transit options and offers a healthier alternative to exploration. BikeRack allows users to pre-plan their destinations by locating city bike stations worldwide, allowing for an eco-friendly, affordable method of transit while travelling.  
+THis application allows general practitioners to refer their patients to specialized doctors, thus reducing paper use as well as lost referrals. 
 
-Currently, the views of our website include a home page, login page, a sign up page, a log in confirmed page, and a search page. Existing users can log onto their account by clicking the log in button, and new users can sign up through the sign up button. The home page which contains general information about the website and how to use it. 
+Search by physician name or specialty. 
 
-Users can choose to create an account by signing up with an email, username and password. Note that the username and email MUST be unique, or the user will be returned to the log in or sign up page. If the username and email have not been used for another account, the user will be redirected to a page where they can view stops that they have saved. Users can access the search feature to search for city bike stops utilizing the company name of the bike sharing service, or the country that they wish to travel to. The user can then see a collection of data including the locations and countries that the company services. 
+Px will filter and display all relevant physicians based on your input and preferences. 
 
-BikeRack aims to provide users with an aggregation of data on bike sharing locations worldwide, in order to reduce the costs of travel, as well as promote a healthy, environmentally friendly lifestyle. 
+By selecting search by physician, you can search for a specific specialist. 
+By selecting search by specialty, you can search for individuals that meet criteria you set. 
+
+The website is currently deployed at https://pxmatch.herokuapp.com - For iOS users unable to create their own account, or wishing to just test out the application, we have a tester account created: 
+Username: pxuser
+Password: pxuser
