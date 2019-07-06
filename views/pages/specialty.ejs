@@ -11,11 +11,11 @@
         <script type="text/javascript" src="js/index.js"></script>
 
         <script type="text/javascript">
-
+                            //can do with Regex as well
                             function sampleFunction() {
                                  var fname = document.getElementById("name").value;
                                  submitOK = true;
-                                 if (fname != "Psychiatry" && fname !="psychiatry") {
+                                 if (fname != "Psychiatry" && fname !="psychiatry" && fname != "Psychiatry " && fname != "psychiatry ") {
                                      alert("We currently have no specialists in the field you are looking for. Try searching for a different field.");
                                      return false;
                                  } 
