@@ -33,7 +33,26 @@
 			<form action="/psychiatrists" method="get">
                     <br>
                         <p> Please ensure all information is as accurate as possible. </p>
-                        <h4 align="center"> Symptoms: </h4>
+
+                        <h4 align="center"> Medically Relevant Information and Symptoms: </h4>
+
+                        <p align="left"> <br>Age of Patient: </p>  
+                        <select class="custom-select">
+                          <option selected>Select:</option>
+                          <option value="1">Preschool (3-6 years)</option>
+                          <option value="2">Young Child (6-12 years)</option>
+                          <option value="3">Adolescent (12-18 years)</option>
+                          <option value="4">Adult (18+ years)</option>
+                          <option value="5">Geriatric (60+ years)</option>
+                        </select><br>
+
+                        <p align="left"> <br>Gender of Patient: </p>
+                         <select class="custom-select">
+                          <option selected>Select:</option>
+                          <option value="1">Male</option>
+                          <option value="2">Female</option>
+                        </select><br> <br> 
+
                         <p align="left"> Select all applicable symptoms. </p>
                     <div class="custom-control custom-checkbox">
                       <input type="checkbox" class="custom-control-input" id="customCheck1">
