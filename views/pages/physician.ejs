@@ -15,7 +15,7 @@
                             function sampleFunction() {
                                  var fname = document.getElementById("name").value;
                                  submitOK = true;
-                                 if (fname != "Wey Leong" && fname !="wey leong") {
+                                 if (fname != "Leong, Wey" && fname !="leong, wey"  && fname !="leong"  && fname !="Leong") {
                                      alert("The physician you were searching for is not in the database. Try again later.");
                                      return false;
                                  } 
@@ -41,7 +41,7 @@
         <div id="view-search">
             <div class="container">
  
-                <h3 style="text-align: center">Search for a physician by name:</h3>
+                <h3 style="text-align: center">Search for a physician by name (Last Name, First Name):</h3>
  <form method="get" action="/WeyLeong" onsubmit="return sampleFunction();">
                 <div class="input-group flex-container">
                     <div class="input-group flex-item">
